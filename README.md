@@ -19,3 +19,8 @@ npm run dev      # start the dev server
 npm test         # run the EMI maths unit tests
 npm run build    # production build into dist/
 ```
+
+## Deployment
+
+Every push to `main` builds the app and deploys it to GitHub Pages via
+`.github/workflows/deploy.yml`: https://sandeeppatro.github.io/EMICalculator/
